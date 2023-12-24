@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/hunger_games" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:textColor="@color/gray"
+                android:text="@string/movieAct1title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/gray"
+                android:text="@string/movieAct1info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="95dp"
+                android:textColor="@color/gray"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:text="@string/movieAct1Syn" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                app:dividerColor="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="480dp"
+                android:src="@drawable/tenet_mv" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="475dp"
+                android:layout_marginStart="175dp"
+                android:textSize="20sp"
+                android:textColor="@color/gray"
+                android:text="@string/movAct2title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginStart="175dp"
+                android:textColor="@color/gray"
+                android:text="@string/movAct2info"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="540dp"
+                android:textColor="@color/gray"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:text="@string/movAct2syn"/>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/btnHello"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/hello"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchHelloActivity"/>
+
+    <ImageView
+        android:id="@+id/btnSianida"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/sianida"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchSianidaActivity"/>
+
+    <ImageView
+        android:id="@+id/btnCount"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/count"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchToastActivity"/>
+
+    <ImageView
+        android:id="@+id/btnTwoAct"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/two_act"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="launchTwoActivity"/>
+
+    <ImageView
+        android:id="@+id/btnAlarm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/alarm"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="createAlarm"/>
+
+    <ImageView
+        android:id="@+id/btnMap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/map"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="showMap"/>
+
+    <ImageView
+        android:id="@+id/btnMovie"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/movie"
+        android:layout_margin="18dp"
+        android:contentDescription="@string/zero"
+        android:onClick="movieFragment"/>
+</GridLayout>
+
+<!--<com.google.android.material.imageview.ShapeableImageView-->
+<!--android:layout_width="100dp"-->
+<!--android:layout_height="100dp"-->
+<!--android:padding="5dp"-->
+<!--android:src="@drawable/movie"-->
+<!--android:layout_margin="18dp"-->
+<!--android:contentDescription="@string/zero"-->
+<!--android:onClick="showMap"/>-->
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_main_hello"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:backgroundTint="@color/btn_color"-->
+<!--        android:onClick="launchHelloActivity"-->
+<!--        android:text="@string/project_hello"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_main_toast"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:backgroundTint="@color/btn_color"-->
+<!--        android:text="@string/project_count"-->
+<!--        android:onClick="launchToastActivity"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_main_hello" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_main_sianida"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:backgroundTint="@color/btn_color"-->
+<!--        android:onClick="launchSianidaActivity"-->
+<!--        android:text="@string/project_sianida"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_main_toast" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_main_twoActivity"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:backgroundTint="@color/btn_color"-->
+<!--        android:onClick="launchTwoActivity"-->
+<!--        android:text="@string/project_two_act"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_main_sianida" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_main_Alarm"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:backgroundTint="@color/btn_color"-->
+<!--        android:onClick="createAlarm"-->
+<!--        android:text="@string/project_alarm"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_main_twoActivity" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
