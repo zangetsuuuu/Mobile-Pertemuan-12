@@ -19,7 +19,8 @@
 
 ### Fragment
 
-![Menu](img/Menu.jpg)
-![Fragment 1](img/Fragment%201.jpg)
-![Fragment 2](img/Fragment%202.jpg)
-![Fragment 3](img/Fragment%203.jpg)
+<img src="img/Menu.jpg" alt="Menu" width="200">
+<img src="img/Fragment%201.jpg" alt="Fragment 1" width="200">
+<img src="img/Fragment%202.jpg" alt="Fragment 2" width="200">
+<img src="img/Fragment%203.jpg" alt="Fragment 3" width="200">
+
